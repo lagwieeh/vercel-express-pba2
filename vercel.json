@@ -11,10 +11,7 @@
     }
   ],
   "routes": [
-    {
-      "src": "./routes/expressions",
-      "dest": "/expressions.js"
-    },
+    { "src": "/expressions", "dest": "./routes/expressions" },
     {
       "src": "./",
       "dest": "router.js"

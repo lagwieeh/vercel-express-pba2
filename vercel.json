@@ -12,9 +12,9 @@
   ],
   "routes": [
     {
-      "src": "/routes/(.*)",
-      "dest": "/(.*)"
-    },
+      "src": "/",
+      "dest": "index.js"
+  },
     {
       "src": "/",
       "dest": "public/index.html"

@@ -11,8 +11,12 @@
     }
   ],
   "routes": [
-    { "src": "/expressions", "dest": "./routes/expressions" },
     
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    
+    },
     {
       "src": "/",
       "dest": "public/index.html"

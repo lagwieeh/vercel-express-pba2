@@ -78,13 +78,13 @@ function setMode(mode) {
 
 const generateRoute = (id, name, emoji) => {
   if (id && name && emoji) {
-    return `/${currentMode}/${id}?name=${name}&emoji=${emoji}`;
+    return `/api/${currentMode}/${id}?name=${name}&emoji=${emoji}`;
   } else if (id) {
-    return `/${currentMode}/${id}`;
+    return `/api/${currentMode}/${id}`;
   } else if (name && emoji) {
-    return `/${currentMode}?name=${name}&emoji=${emoji}`;
+    return `/api/${currentMode}?name=${name}&emoji=${emoji}`;
   } else {
-    return `/${currentMode}`;
+    return `/api/${currentMode}`;
   }
 };
 

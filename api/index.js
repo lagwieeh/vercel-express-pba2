@@ -12,7 +12,7 @@ app.use(express.static('public'));
 //requiring our router to be connected to app
 // app.use(router);
 app.use('/api/expressions', expressionsRouter);
-app.use('/animals', animalsRouter)
+app.use('/animals/animals', animalsRouter)
 
 app.listen(PORT, () => {
   console.log(`Server is listening on ${PORT}`);

@@ -14,11 +14,11 @@
     
     {
       "src": "./api/(.*)",
-      "dest": "api/index.js"
+      "dest": "index.js"
     
     },
     {
-      "src": "/(.*)",
+      "src": "/public/(.*)",
       "dest": "public/$1"
     }
     

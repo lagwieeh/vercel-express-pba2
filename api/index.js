@@ -1,7 +1,7 @@
 const express = require('express');
 // const router = require('./router');
-const animalsRouter = require('./routes/animals').animalsRouter;
-const expressionsRouter = require('./routes/expressions').expressionsRouter;
+const animalsRouter = require('../routes/animals').animalsRouter;
+const expressionsRouter = require('../routes/expressions').expressionsRouter;
 
 const app = express();
 

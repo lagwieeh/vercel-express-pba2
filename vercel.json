@@ -11,7 +11,14 @@
     }
   ],
   "routes": [
-    
+    {
+      "src": "./routes",
+      "dest": "/(.*)"
+    },
+    {
+      "src": "./",
+      "dest": "router.js"
+    },
     {
       "src": "./",
       "dest": "index.js"

@@ -14,7 +14,7 @@
     
     
     {
-      "src": "/public/(.*)",
+      "src": "public/(.*)",
       "dest": "public/$1"
     },
     

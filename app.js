@@ -13,8 +13,8 @@ const PORT = process.env.PORT || 4001;
 
 // Use static server to serve the Express Yourself Website
 app.use(express.static('public'));
-app.use('/expressions', expressionsRouter);
-app.use('/animals', animalsRouter)
+app.use('/api/expressions', expressionsRouter);
+app.use('/api/animals', animalsRouter)
 
 // EXPRESSIONS
   // Get a single expression
